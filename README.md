@@ -19,11 +19,14 @@ The repository is separated in two parts.
  
 # Usage
 ### Running Backend
+Navigate until backend folder and run:
 `mvn spring-boot:run`
 
 ### Running frontEnd
+Navigate until frontend folder and run:
 `ng serve --open`
 
+Navigate until backend folder and run:
 ### Running tests with selenium
 `mvn spring-boot:run`
 

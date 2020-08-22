@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: br.com.ricas.TestsWithSeleniumApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.929 s <<< FAILURE! - in br.com.ricas.TestsWithSeleniumApplicationTests
+shouldCreateAnUser  Time elapsed: 3.91 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A4200/adduser&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A4200.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ricardohsmello', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-64-generic', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7929, moz:profile: /tmp/rust_mozprofileW1DYLR, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-64-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8faf1b29-10c2-42cc-b401-06c2a78a13d1
+	at br.com.ricas.TestsWithSeleniumApplicationTests.shouldCreateAnUser(TestsWithSeleniumApplicationTests.java:18)
+

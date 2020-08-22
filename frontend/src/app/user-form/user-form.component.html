@@ -21,7 +21,7 @@
             required #email="ngModel">
           <div [hidden]="!email.pristine" class="alert alert-danger">Email is required</div>
         </div>
-        <button type="submit" [disabled]="!userForm.form.valid" 
+        <button type="submit" [disabled]="!userForm.form.valid" name="btnAdd"
           class="btn btn-info">Submit</button>
       </form>
     </div>

@@ -11,6 +11,7 @@ The repository is separated in two parts.
 - Spring-Boot
 - seleniumhq
 - H2
+- Angular 8
 
 # Prerequisites
  - Ng

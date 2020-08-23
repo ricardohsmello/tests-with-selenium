@@ -10,22 +10,22 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.ricas.model.User;
-import br.com.ricas.repository.UserRepository;
+import br.com.ricas.service.UserService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class UserController {
-
+ 
 	@Autowired
-	private UserRepository userRepository;
+	private UserService userService;
 
 	@GetMapping("/users")
 	public List<User> getUsers() {
-		return (List<User>) userRepository.findAll();
+		return userService.findAll();
 	}
 
 	@PostMapping("/users")
 	public void addUser(@RequestBody User user) {
-		userRepository.save(user);
+		userService.save(user);
 	}
 }

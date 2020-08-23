@@ -1,4 +1,4 @@
-package br.com.ricas;
+package br.com.ricas.selenium;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -7,8 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
- class TestsWithSeleniumApplicationTests {
- 
+ class TestsWithSelenium {
 
 	@Test
 	public void shouldCreateAnUser() {
@@ -33,7 +32,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 		assertTrue(findName);
 		assertTrue(findEmail);
-
 	}
 
 }

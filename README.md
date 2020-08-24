@@ -9,7 +9,7 @@ The repository is separated in two parts.
 # Built With
 - Java 8
 - Spring-Boot
-- seleniumhq
+- Seleniumhq
 - H2
 - Angular 8
 
